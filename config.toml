@@ -1,0 +1,17 @@
+# Which closures you care about.
+#
+# The Blue Ridge Parkway runs from milepost 0 (Rockfish Gap, VA) to 469.1
+# (Cherokee, NC). A closure is reported if its milepost range overlaps any
+# range listed here. Add as many ranges as you like.
+[area]
+name = "My section of the Parkway"
+ranges = [
+  [380.0, 394.0],   # TODO: replace with your mileposts
+]
+
+# Optional: also match closures that mention these place names, even if
+# no milepost is given (case-insensitive). Example: ["Craggy Gardens", "Mount Pisgah"]
+keywords = []
+
+[source]
+url = "https://www.nps.gov/blri/planyourvisit/roadclosures.htm"
