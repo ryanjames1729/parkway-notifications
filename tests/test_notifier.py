@@ -140,3 +140,12 @@ def test_main_sends_once_then_on_change(tmp_path: Path, monkeypatch):
     subject, text, html = sent[0]
     assert subject == "BRP reopened: MP 367.6 (Asheville)"
     assert "REOPENED / NO LONGER LISTED\n- MP 367.6 | USFS Road 63" in text
+
+
+def test_welcome_resends_summary_even_without_changes(tmp_path: Path, monkeypatch):
+    _run(tmp_path, monkeypatch, REAL_PAGE)
+    rc, sent = _run(tmp_path, monkeypatch, REAL_PAGE, ["--welcome"])
+    assert rc == 0 and len(sent) == 1
+    subject, text, html = sent[0]
+    assert subject.startswith("BRP alerts on for Asheville")
+    assert "Alerts are on" in html and "NC Highway 80 to Mount Mitchell State Park" in text

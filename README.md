@@ -57,6 +57,9 @@ addresses never appear in this repo.
 
 Everyone in the group gets the same alerts, for the area set in `config.toml`.
 
+After adding people, run the workflow with **Send the 'alerts are on' summary** ticked so they
+get the current status right away instead of waiting for the next change.
+
 ## How it works
 
 - `notifier.py` downloads the page and reads the closures tables row by row: milepost

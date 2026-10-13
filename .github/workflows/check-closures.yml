@@ -9,6 +9,10 @@ on:
         description: "Print the email instead of sending it (state isn't saved)"
         type: boolean
         default: false
+      welcome:
+        description: "Send the 'alerts are on' summary of current closures (e.g. after adding recipients)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # to commit state.json when closures change
@@ -42,7 +46,7 @@ jobs:
         run: |
           # Empty secrets arrive as "", so fall back to the Gmail defaults.
           export SMTP_HOST="${SMTP_HOST:-smtp.gmail.com}" SMTP_PORT="${SMTP_PORT:-465}"
-          python notifier.py ${{ inputs.dry_run && '--dry-run' || '' }}
+          python notifier.py ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.welcome && '--welcome' || '' }}
 
       - name: Save state
         run: |

@@ -6,6 +6,7 @@ Usage:
     python notifier.py --dry-run       # print what would be sent; don't email or save
     python notifier.py --html page.htm # parse a saved copy of the page instead of fetching
     python notifier.py --preview out.html  # also write the HTML email to a file
+    python notifier.py --welcome       # send the "alerts are on" summary even if nothing changed
 """
 
 from __future__ import annotations
@@ -531,6 +532,11 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--html", type=Path, help="parse this saved HTML file instead of fetching")
     ap.add_argument("--dry-run", action="store_true", help="print instead of emailing; don't save state")
     ap.add_argument("--preview", type=Path, help="write the HTML email to this file")
+    ap.add_argument(
+        "--welcome",
+        action="store_true",
+        help='send the "alerts are on" summary of current closures, e.g. after adding recipients',
+    )
     args = ap.parse_args(argv)
 
     config = Config.load(args.config)
@@ -544,7 +550,7 @@ def main(argv: list[str] | None = None) -> int:
 
     current = notices_for_area(page, config)
     previous = load_state(args.state)
-    first_run = previous is None
+    first_run = previous is None or args.welcome
     changes = diff(previous, current)
 
     print(
