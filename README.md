@@ -39,14 +39,18 @@ phasing these gateways out. If yours doesn't deliver, Twilio SMS can be added.
 
 ## How it works
 
-- `notifier.py` downloads the page and splits it into table rows, list items and paragraphs.
-  It pulls milepost ranges out of each one ("Milepost 95.9 to 106", "MP 0.0-2.2", or a
-  table column headed *Milepost*).
-- Notices that overlap your ranges are compared with `state.json`, which the workflow commits
-  back to the repo. If anything was added or removed, you get one email.
-- If the page loads but no mileposts can be found (for example, NPS redesigned the page), the
-  run **fails instead of reporting "all clear"**. GitHub then emails you about the failed run,
-  so a broken parser doesn't fail silently.
+- `notifier.py` downloads the page and reads the closures tables row by row: milepost
+  range, crossroads, status, and notes. It also reads the "Facility Closures" and
+  "Trail and Backcountry Closures" lists.
+- It keeps rows that are **Closed**, or open but with a closure or restriction in the notes
+  (single-lane closures, closed campgrounds, detours). Sections that are simply Open or
+  Ungated are ignored.
+- Rows that overlap your milepost ranges are compared with `state.json`, which the workflow
+  commits back to the repo. If a closure is new, changes status, or drops off the page, you
+  get one email: a formatted HTML message with a plain-text version for SMS gateways.
+- If the page loads but the closures table can't be found (for example, NPS redesigned the
+  page), the run **fails instead of reporting "all clear"**. GitHub then emails you about the
+  failed run, so a broken parser doesn't fail silently.
 
 ## Running locally
 
@@ -55,6 +59,7 @@ pip install -r requirements.txt pytest
 python -m pytest
 python notifier.py --dry-run                 # fetch the live page, print what would be sent
 python notifier.py --html saved.html --dry-run
+python notifier.py --dry-run --preview email.html   # open email.html to see the email
 ```
 
 ## Notes
