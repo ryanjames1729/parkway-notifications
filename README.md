@@ -37,6 +37,26 @@ Add your carrier's email-to-SMS gateway to `EMAIL_TO`, for example
 The subject lines are kept short so they read well as texts. Some carriers have been
 phasing these gateways out. If yours doesn't deliver, Twilio SMS can be added.
 
+## Sharing alerts with other people
+
+The easiest way is a free Google Group. People join and leave on their own, and their
+addresses never appear in this repo.
+
+1. Create a group at <https://groups.google.com> → *Create group*, for example `brp-nc80-balsam`.
+2. Group settings:
+   - **Who can search for group / join:** "Anyone on the web" can search, and "Anyone can ask"
+     or "Anyone can join" (choose "ask" if you want to approve each person).
+   - **Who can post:** *Group managers*. Make the address in `SMTP_USERNAME` an owner or
+     manager so the alerts get through and nobody else can email the list.
+   - **Who can view members:** *Group managers*, so members can't see each other's addresses.
+3. Set the `EMAIL_TO` secret to the group's address (`brp-nc80-balsam@googlegroups.com`),
+   or to your own address plus the group, separated by a comma.
+4. Share the group's page link (`https://groups.google.com/g/brp-nc80-balsam`). People without
+   a Google account can join by emailing `brp-nc80-balsam+subscribe@googlegroups.com`,
+   and anyone can leave with the unsubscribe link Google adds to every email.
+
+Everyone in the group gets the same alerts, for the area set in `config.toml`.
+
 ## How it works
 
 - `notifier.py` downloads the page and reads the closures tables row by row: milepost
