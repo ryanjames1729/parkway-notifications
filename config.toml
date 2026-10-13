@@ -4,9 +4,9 @@
 # (Cherokee, NC). A closure is reported if its milepost range overlaps any
 # range listed here. Add as many ranges as you like.
 [area]
-name = "My section of the Parkway"
+name = "MP 355-443"
 ranges = [
-  [380.0, 394.0],   # TODO: replace with your mileposts
+  [355.0, 443.0],
 ]
 
 # Optional: also match closures that mention these place names, even if
