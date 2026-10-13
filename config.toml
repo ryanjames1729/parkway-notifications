@@ -4,9 +4,9 @@
 # (Cherokee, NC). A closure is reported if its milepost range overlaps any
 # range listed here. Add as many ranges as you like.
 [area]
-name = "Mount Mitchell to Balsam Gap"
+name = "NC 80 to Balsam Gap"
 ranges = [
-  [355.0, 443.0],
+  [344.2, 443.0],   # NC Highway 80 to Balsam Gap (US 23/74)
 ]
 
 # Optional: also match closures that mention these place names, even if
