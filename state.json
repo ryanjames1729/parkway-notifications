@@ -1,5 +1,18 @@
 {
   "notices": {
+    "0c85c414c91f446a": {
+      "kind": "closed",
+      "milepost": "405.5 \u2013 408.8",
+      "notes": "Road Maintenance",
+      "place": "Elk Pasture Gap to Pisgah Store",
+      "ranges": [
+        [
+          405.5,
+          408.8
+        ]
+      ],
+      "status": "Closed"
+    },
     "86d8ca2ceeed5da8": {
       "kind": "restricted",
       "milepost": "342.1 \u2013 344.2",
@@ -16,6 +29,19 @@
         ]
       ],
       "status": "Ungated"
+    },
+    "9b9234f3e1b70400": {
+      "kind": "closed",
+      "milepost": "408.8 \u2013 411.9",
+      "notes": "Road Maintenance",
+      "place": "Pisgah Store (Pisgah Campground and Inn) to US Route 276",
+      "ranges": [
+        [
+          408.8,
+          411.9
+        ]
+      ],
+      "status": "Closed"
     },
     "9f7698b16821d31b": {
       "kind": "restricted",
