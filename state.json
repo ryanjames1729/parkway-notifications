@@ -98,6 +98,19 @@
         ]
       ],
       "status": "Closed"
+    },
+    "ecdf899dfbd50bcd": {
+      "kind": "closed",
+      "milepost": "443 \u2013 455.7",
+      "notes": "Weather Closure",
+      "place": "Balsam Gap (US Route 23/74) to Soco Gap (US Route 19)",
+      "ranges": [
+        [
+          443.0,
+          455.7
+        ]
+      ],
+      "status": "Closed"
     }
   },
   "version": 2
