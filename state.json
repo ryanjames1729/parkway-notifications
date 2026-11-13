@@ -13,6 +13,58 @@
       ],
       "status": "Closed"
     },
+    "1579876bcd1df335": {
+      "kind": "closed",
+      "milepost": "355.3 \u2013 364.5",
+      "notes": "Weather Closure",
+      "place": "NC Highway 128 to South of Craggy Gardens Tunnel, including Craggy Gardens Visitor Center",
+      "ranges": [
+        [
+          355.3,
+          364.5
+        ]
+      ],
+      "status": "Closed"
+    },
+    "24f6468a0a959898": {
+      "kind": "closed",
+      "milepost": "355.3",
+      "notes": "Weather Closure",
+      "place": "Mount Mitchell State Park",
+      "ranges": [
+        [
+          355.3,
+          355.3
+        ]
+      ],
+      "status": "Closed"
+    },
+    "277bd8d952534c60": {
+      "kind": "closed",
+      "milepost": "367.6 \u2013 375.7",
+      "notes": "Weather Closure",
+      "place": "North of Craggy Gardens Picnic Area to Bull Gap (North of Elk Mountain/Ox Creek Road)",
+      "ranges": [
+        [
+          367.6,
+          375.7
+        ]
+      ],
+      "status": "Closed"
+    },
+    "2cc173a0717e938b": {
+      "kind": "closed",
+      "milepost": "364.5 \u2013 367.6",
+      "notes": "Weather Closure",
+      "place": "South of Craggy Gardens Tunnel to North of Craggy Gardens Picnic Area",
+      "ranges": [
+        [
+          364.5,
+          367.6
+        ]
+      ],
+      "status": "Closed"
+    },
     "86d8ca2ceeed5da8": {
       "kind": "restricted",
       "milepost": "342.1 \u2013 344.2",
@@ -29,6 +81,19 @@
         ]
       ],
       "status": "Ungated"
+    },
+    "96735c821d6e70a4": {
+      "kind": "closed",
+      "milepost": "375.7",
+      "notes": "Weather Closure",
+      "place": "Ox Creek/Elk Mountain Access Road",
+      "ranges": [
+        [
+          375.7,
+          375.7
+        ]
+      ],
+      "status": "Closed"
     },
     "9b9234f3e1b70400": {
       "kind": "closed",
