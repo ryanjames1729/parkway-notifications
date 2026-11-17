@@ -95,19 +95,6 @@
       ],
       "status": "Ungated"
     },
-    "96735c821d6e70a4": {
-      "kind": "closed",
-      "milepost": "375.7",
-      "notes": "Weather Closure",
-      "place": "Ox Creek/Elk Mountain Access Road",
-      "ranges": [
-        [
-          375.7,
-          375.7
-        ]
-      ],
-      "status": "Closed"
-    },
     "9b9234f3e1b70400": {
       "kind": "closed",
       "milepost": "408.8 \u2013 411.9",
@@ -143,6 +130,19 @@
         [
           367.6,
           367.6
+        ]
+      ],
+      "status": "Closed"
+    },
+    "d83f72e3d4f37880": {
+      "kind": "closed",
+      "milepost": "382.8 \u2013 384.1",
+      "notes": "Closed completely at Tunnel Rd; Access to Headquarters from Highway 74A",
+      "place": "Highway 70 (Tunnel Road) to Park Headquarters and Visitor Center",
+      "ranges": [
+        [
+          382.8,
+          384.1
         ]
       ],
       "status": "Closed"
