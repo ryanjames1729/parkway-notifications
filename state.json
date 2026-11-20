@@ -26,32 +26,6 @@
       ],
       "status": "Closed"
     },
-    "277bd8d952534c60": {
-      "kind": "closed",
-      "milepost": "367.6 \u2013 375.7",
-      "notes": "Weather Closure",
-      "place": "North of Craggy Gardens Picnic Area to Bull Gap (North of Elk Mountain/Ox Creek Road)",
-      "ranges": [
-        [
-          367.6,
-          375.7
-        ]
-      ],
-      "status": "Closed"
-    },
-    "2cc173a0717e938b": {
-      "kind": "closed",
-      "milepost": "364.5 \u2013 367.6",
-      "notes": "Weather Closure",
-      "place": "South of Craggy Gardens Tunnel to North of Craggy Gardens Picnic Area",
-      "ranges": [
-        [
-          364.5,
-          367.6
-        ]
-      ],
-      "status": "Closed"
-    },
     "4d137f4dd2ff52d3": {
       "kind": "closed",
       "milepost": "423.2 \u2013 443",
