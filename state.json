@@ -26,19 +26,6 @@
       ],
       "status": "Closed"
     },
-    "4d137f4dd2ff52d3": {
-      "kind": "closed",
-      "milepost": "423.2 \u2013 443",
-      "notes": "Weather Closure",
-      "place": "Beech Gap (NC Route 215) to Balsam Gap (US Route 23/74)",
-      "ranges": [
-        [
-          423.2,
-          443.0
-        ]
-      ],
-      "status": "Closed"
-    },
     "86d8ca2ceeed5da8": {
       "kind": "restricted",
       "milepost": "342.1 \u2013 344.2",
@@ -91,19 +78,6 @@
         [
           382.8,
           384.1
-        ]
-      ],
-      "status": "Closed"
-    },
-    "ecdf899dfbd50bcd": {
-      "kind": "closed",
-      "milepost": "443 \u2013 455.7",
-      "notes": "Weather Closure",
-      "place": "Balsam Gap (US Route 23/74) to Soco Gap (US Route 19)",
-      "ranges": [
-        [
-          443.0,
-          455.7
         ]
       ],
       "status": "Closed"
