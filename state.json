@@ -68,19 +68,6 @@
         ]
       ],
       "status": "Closed"
-    },
-    "d83f72e3d4f37880": {
-      "kind": "closed",
-      "milepost": "382.8 \u2013 384.1",
-      "notes": "Closed completely at Tunnel Rd; Access to Headquarters from Highway 74A",
-      "place": "Highway 70 (Tunnel Road) to Park Headquarters and Visitor Center",
-      "ranges": [
-        [
-          382.8,
-          384.1
-        ]
-      ],
-      "status": "Closed"
     }
   },
   "version": 2
