@@ -13,19 +13,6 @@
       ],
       "status": "Closed"
     },
-    "24f6468a0a959898": {
-      "kind": "closed",
-      "milepost": "355.3",
-      "notes": "Weather Closure",
-      "place": "Mount Mitchell State Park",
-      "ranges": [
-        [
-          355.3,
-          355.3
-        ]
-      ],
-      "status": "Closed"
-    },
     "86d8ca2ceeed5da8": {
       "kind": "restricted",
       "milepost": "342.1 \u2013 344.2",
