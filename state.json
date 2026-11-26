@@ -1,5 +1,31 @@
 {
   "notices": {
+    "0c85c414c91f446a": {
+      "kind": "closed",
+      "milepost": "405.5 \u2013 408.8",
+      "notes": "Weather Closure",
+      "place": "Elk Pasture Gap to Pisgah Store",
+      "ranges": [
+        [
+          405.5,
+          408.8
+        ]
+      ],
+      "status": "Closed"
+    },
+    "1310d2c1af7bae52": {
+      "kind": "closed",
+      "milepost": "405.5",
+      "notes": "Weather Closure",
+      "place": "NC Highway 151 Access Road",
+      "ranges": [
+        [
+          405.5,
+          405.5
+        ]
+      ],
+      "status": "Closed"
+    },
     "1579876bcd1df335": {
       "kind": "closed",
       "milepost": "355.3 \u2013 364.5",
@@ -9,6 +35,32 @@
         [
           355.3,
           364.5
+        ]
+      ],
+      "status": "Closed"
+    },
+    "24f6468a0a959898": {
+      "kind": "closed",
+      "milepost": "355.3",
+      "notes": "Weather Closure",
+      "place": "Mount Mitchell State Park",
+      "ranges": [
+        [
+          355.3,
+          355.3
+        ]
+      ],
+      "status": "Closed"
+    },
+    "4d137f4dd2ff52d3": {
+      "kind": "closed",
+      "milepost": "423.2 \u2013 443",
+      "notes": "Weather Closure",
+      "place": "Beech Gap (NC Route 215) to Balsam Gap (US Route 23/74)",
+      "ranges": [
+        [
+          423.2,
+          443.0
         ]
       ],
       "status": "Closed"
@@ -29,6 +81,32 @@
         ]
       ],
       "status": "Ungated"
+    },
+    "98ff594bebde7ab0": {
+      "kind": "closed",
+      "milepost": "411.9 \u2013 418.7",
+      "notes": "Weather Closure",
+      "place": "US Route 276 to North of Graveyard Fields Overlook",
+      "ranges": [
+        [
+          411.9,
+          418.7
+        ]
+      ],
+      "status": "Closed"
+    },
+    "9b9234f3e1b70400": {
+      "kind": "closed",
+      "milepost": "408.8 \u2013 411.9",
+      "notes": "Weather Closure",
+      "place": "Pisgah Store (Pisgah Campground and Inn) to US Route 276",
+      "ranges": [
+        [
+          408.8,
+          411.9
+        ]
+      ],
+      "status": "Closed"
     },
     "9f7698b16821d31b": {
       "kind": "restricted",
@@ -52,6 +130,58 @@
         [
           367.6,
           367.6
+        ]
+      ],
+      "status": "Closed"
+    },
+    "cfabda705aa5049c": {
+      "kind": "closed",
+      "milepost": "420.2 \u2013 423.2",
+      "notes": "Weather Closure",
+      "place": "USFS Road 816 (Black Balsam) to Beech Gap (NC Route 215)",
+      "ranges": [
+        [
+          420.2,
+          423.2
+        ]
+      ],
+      "status": "Closed"
+    },
+    "de8db5f8df4f906c": {
+      "kind": "closed",
+      "milepost": "344.2 \u2013 355.3",
+      "notes": "Weather Closure",
+      "place": "NC Highway 80 to Mount Mitchell State Park",
+      "ranges": [
+        [
+          344.2,
+          355.3
+        ]
+      ],
+      "status": "Closed"
+    },
+    "ecdf899dfbd50bcd": {
+      "kind": "closed",
+      "milepost": "443 \u2013 455.7",
+      "notes": "Weather Closure",
+      "place": "Balsam Gap (US Route 23/74) to Soco Gap (US Route 19)",
+      "ranges": [
+        [
+          443.0,
+          455.7
+        ]
+      ],
+      "status": "Closed"
+    },
+    "ffed4356708442e9": {
+      "kind": "closed",
+      "milepost": "418.7 \u2013 420.2",
+      "notes": "Weather Closure",
+      "place": "North of Graveyard Fields Overlook to USFS Road 816 (Black Balsam)",
+      "ranges": [
+        [
+          418.7,
+          420.2
         ]
       ],
       "status": "Closed"
